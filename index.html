@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2dc2033ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <div class="animated-text">
+                I am a <span id="typing-text"></span>
+            </div>
+                    
+                    <h1>Hi I'M <span>MAHESH</span> <br>From India</h1>
+            </div>
+            <a href="Mahesh_Kadali_Updated_Resume_2026.pdf" download class="btn btn2">Download My CV</a>
+        </div>
+    </div>
+    <!---about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mydetails.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a motivated Full Stack Developer and UI/UX Designer with a strong interest in web development and user-friendly design. As a fresher, I am eager to learn new technologies and apply my skills to build responsive and visually appealing websites. I enjoy working on both frontend and backend and aim to grow as a professional by creating simple and effective digital solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML, CSS, JavaScript</span><br>Designing web/app interfaces.</li>
+                            <li><span>Python, Mern</span><br>Full Stack Development.</li>
+                            <li><span>Java, Data Analyst</span><br>Android Applications & Data Analysing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <a href="certificate2.html"><li><span>TATA (Forage) – GenAI Powered Data Analytics Job Simulation-(Click_Here)</span></a><br>Hands-on experience in GenAI-powered data analytics, including exploratory analysis, AI-driven insights, and business data storytelling.</li>
+                            <a href="certificate.html"><li><span>LinkedIn Learning – What Is Generative AI?-(Click_Here)</span></a><br>Gained foundational understanding of Generative AI concepts, tools, and real-world applications in modern technology.</li>
+                            <a href="certificate4.html"><li><span>AWS – Building a Machine Learning Ready Organization-(Click_Here)</span></a><br>Completed AWS training focused on building ML-ready systems, data strategy, and organizational best practices for machine learning adoption.</li>
+                            <a href="certificate3.html"><li><span>TCS iON – Career Edge (Young Professional)-(Click_Here)</span></a><br>Completed industry-oriented professional skills training covering communication, IT fundamentals, AI basics, and career readiness.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br>I am currently purusing my final year B.tech in AIML branch at D.N.R.C.E.T, Bhimavaram. <br></li>
+                            <li><span>INTERMEDIATE</span><br>I have completed my intermediate in MPC from Aditya Junior College, Palakol.</li>
+                            <li><span>SCHOOL</span><br>I have completed my schooling from Sujatha E.M School, Medapadu.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------services-------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY SERVICES</h1>
+            <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Full Stack Devloper</h2>
+                    <p>>>>>I handle the whole project, from the visual front-end to the server logic. <br><br>>>>>I troubleshoot and fix issues to keep your existing site running smoothly. <br><br>>>>>I create tools to automate boring, repetitive tasks for your business.</p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p> >>>>Ensuring the layout adapts fluidly to mobile phones, tablets, and desktop screens.<br> <br> >>>> Focusing on intuitive navigation and logical flow so users can find what they need. <br><br> >>>>Optimizing image sizes and design assets so the page loads instantly.</p>
+                    <a href="#"></a>
+                </div>
+               
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analyst</h2>
+                    <p>>>>>I write efficient queries and scripts to handle large datasets quickly. <br><br> >>>>I translate complex data into simple reports that help you make decisions. <br><br>>>>>I turn raw, messy data into clean, organized formats ready for use using AI.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Full Stack Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Full Stack Projects</h2>
+                    <a href="https://github.com/MAHESH13KADALI/image_gen_python_full_Stack.git"><p>Text-To-Image-Application (Click Here)</p></a> <br>
+                    <a href="https://github.com/MAHESH13KADALI/contact_storage_system_pfs.git"><p>Contact-Storage-System (Click Here)</p></a>
+                    
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2> MERN Full Stack Projects</h2>
+                    <a href="https://github.com/MAHESH13KADALI/contact_storage_application_mern_full_stack.git"><p>Contact-Storage-Application (Click Here)</p></a> <br>
+                    <a href="https://github.com/MAHESH13KADALI/mern-todo-fullstack.git"><p>To-Do-List (Click Here)</p></a>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+<!----portofolio---->
+
+<div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title">MY PROJECTS</h1> 
+       <div class="work-list">
+        <div class="work">
+            <img src="moviebooking.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                
+                <a href="https://mahesh13kadali.github.io/ticketbookingplatform1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="mywallet.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href="https://mahesh13kadali.github.io/expensetracker/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="pranayama.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href="https://mahesh13kadali.github.io/pranayama/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="typinggame.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href="https://mahesh13kadali.github.io/SpeedTyping/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="currency.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href="https://mahesh13kadali.github.io/currencyexchanger/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="e-commerce1.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href="https://mahesh13kadali.github.io/mahesh-e-commerce/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="blog page.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href=" https://mahesh13kadali.github.io/blog2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="quizpage.png" >
+            <div class="layer">
+                <h3>Click Here <br>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </h3>
+                <p></p>
+                <a href=" https://mahesh13kadali.github.io/Quizapp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="more-option">
+        <a href="Scroll.html"><h4>More Projects (Click Here)</h4></a>
+        </div>
+       </div>
+      
+    </div>
+</div>
+<!----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <a href="mailto:mahesh.kadali.tech@gmail"><p><i class="fa-solid fa-paper-plane"></i>mahesh.kadali.tech@gmail.com-(click_Here)</p></a>
+                <p><i class="fa-solid fa-phone"></i>7207526357</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mahesh____kadali/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mahesh13kadali/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/MAHESH13KADALI"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                
+            </div>
+          
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; All Rights Reserved by Mahesh </p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        // --- Typewriter Effect ---
+const textElement = document.getElementById("typing-text");
+const roles = ["Full Stack Developer", "Data Analyst", "UI/UX Designer","Prompt Engineer"];
+let roleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeWriter() {
+    const currentRole = roles[roleIndex];
+    
+    if (isDeleting) {
+        textElement.textContent = currentRole.substring(0, charIndex - 1);
+        charIndex--;
+    } else {
+        textElement.textContent = currentRole.substring(0, charIndex + 1);
+        charIndex++;
+    }
+
+    let typeSpeed = isDeleting ? 100 : 150;
+
+    if (!isDeleting && charIndex === currentRole.length) {
+        isDeleting = true;
+        typeSpeed = 2000; // Wait before deleting
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+        typeSpeed = 500;
+    }
+
+    setTimeout(typeWriter, typeSpeed);
+}
+
+// Start typing animation on load
+document.addEventListener('DOMContentLoaded', typeWriter);
+
+    </script>
+    
+</body>
+</html>
